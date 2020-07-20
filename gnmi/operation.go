@@ -312,7 +312,7 @@ func update(p *pb.Path, val string) (*pb.Update, error) {
 	switch p.Origin {
 	case "":
 		v = &pb.TypedValue{
-			Value: &pb.TypedValue_JsonIetfVal{JsonIetfVal: extractJSON(val)}}
+			Value: &pb.TypedValue_JsonVal{JsonVal: extractJSON(val)}}
 	case "eos_native":
 		v = &pb.TypedValue{
 			Value: &pb.TypedValue_JsonVal{JsonVal: extractJSON(val)}}
