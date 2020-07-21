@@ -1,4 +1,4 @@
-module github.com/aristanetworks/goarista
+module github.com/nepworldwide/goarista
 
 go 1.12
 
@@ -6,6 +6,7 @@ require (
 	github.com/Shopify/sarama v1.26.1
 	github.com/aristanetworks/fsnotify v1.4.2
 	github.com/aristanetworks/glog v0.0.0-20191112221043-67e8567f59f3
+	github.com/aristanetworks/goarista v0.0.0-20200609010056-95bcf8053598
 	github.com/aristanetworks/splunk-hec-go v0.3.3
 	github.com/garyburd/redigo v1.6.0 // indirect
 	github.com/golang/protobuf v1.3.3

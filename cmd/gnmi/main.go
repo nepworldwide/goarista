@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aristanetworks/goarista/gnmi"
+	"github.com/nepworldwide/goarista/gnmi"
 
 	"github.com/aristanetworks/glog"
 	"github.com/golang/protobuf/proto"
